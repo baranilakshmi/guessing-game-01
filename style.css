@@ -3,7 +3,7 @@
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 16px;
+   
 }
 
 /* -------------------whole elem------------------------ */
@@ -24,11 +24,7 @@ body {
     background-image: url("mygame.jpeg") ;
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-
-
     
-    
-
 }
 /* -----------------------body-------------------------- */
 
@@ -40,6 +36,8 @@ body {
     }
     
     #number-input {
+
+     margin: 10px;
     background-color: lightslategray;
     width: 150px;
     height: 40px;
@@ -49,12 +47,14 @@ body {
     }
 
     #guess {
+        margin: 10px;
         background-color:red;
         width: 100px;
         height: 30px;
         font-weight: bolder;
         }
         #restart {
+            margin: 10px;
             background-color: mediumseagreen;
             width: 90px;
             height: 30px;
